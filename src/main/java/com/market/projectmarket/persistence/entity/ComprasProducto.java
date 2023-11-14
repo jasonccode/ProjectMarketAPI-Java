@@ -8,4 +8,6 @@ import javax.persistence.Table;
 @Table(name = "compras_productos")
 public class ComprasProducto {
 
+
+
 }
