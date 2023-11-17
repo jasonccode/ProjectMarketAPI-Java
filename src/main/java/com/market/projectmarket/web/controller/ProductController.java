@@ -34,5 +34,4 @@ public class ProductController {
     public boolean delete(int productId) {
         return productService.delete(productId);
     }
-
 }

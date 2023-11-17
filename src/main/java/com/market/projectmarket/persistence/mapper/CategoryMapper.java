@@ -1,5 +1,4 @@
 package com.market.projectmarket.persistence.mapper;
-
 import com.market.projectmarket.domain.Category;
 import com.market.projectmarket.persistence.entity.Categoria;
 import org.mapstruct.*;
