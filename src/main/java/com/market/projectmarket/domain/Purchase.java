@@ -1,12 +1,13 @@
 package com.market.projectmarket.domain;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.List;
 
 public class Purchase {
     private int purchaseId;
-    private String clienteId;
-    private LocalDate date;
+    private String clientId;
+    private LocalDateTime date;
     private String paymentMethod;
     private String comment;
     private String state;
@@ -20,19 +21,19 @@ public class Purchase {
         this.purchaseId = purchaseId;
     }
 
-    public String getClienteId() {
-        return clienteId;
+    public String getClientId() {
+        return clientId;
     }
 
-    public void setClienteId(String clienteId) {
-        this.clienteId = clienteId;
+    public void setClientId(String clientId) {
+        this.clientId = clientId;
     }
 
-    public LocalDate getDate() {
+    public LocalDateTime getDate() {
         return date;
     }
 
-    public void setDate(LocalDate date) {
+    public void setDate(LocalDateTime date) {
         this.date = date;
     }
 
